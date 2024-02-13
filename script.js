@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "YEEEEEY! I LOVE YOU, MAHAL U'RE THE BEST VALENTINE'S GIFT EVER😘😘😘😘";
+  titleElement.innerHTML = "YEEEEEY! I LOVE YOU, MAHAL U'RE THE BEST VALENTINE'S GIFT EVER!😘😘😘😘";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
@@ -47,7 +47,7 @@ function generateMessage(noCount) {
     "Don't u love me anymore? :((",
     "Don't do this to me:(",
     "Iiyak na aq oh 😫😫😫😫😫😫",
-    "PLEAAAAAASEEEEEEEE",
+    "PLEAAAAAASEEEEEEEE!!!!!!",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
