@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Yayyy!! :3";
+  titleElement.innerHTML = "YEEEEEY! I LOVE YOU babybabe honeybunch darling sweetheart so sweet";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
@@ -43,11 +43,11 @@ function resizeYesButton() {
 function generateMessage(noCount) {
   const messages = [
     "No",
-    "Sure ka na ba?",
-    "Pakipot pa umai",
+    "But I am ur husband 😔",
+    "Don't u love me anymore? :((",
     "Don't do this to me:(",
-    "Magiging sadboi aq",
-    "PUTANGIIIIIIIIIIIIIINAAAAAAAAAAAAAAAAAAAA",
+    "Iiyak na aq oh 😫😫😫😫😫😫",
+    "PLEAAAAAASEEEEEEEE",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
